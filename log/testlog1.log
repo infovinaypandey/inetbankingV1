@@ -626,3 +626,7 @@
 2019-11-05 11:09:09,460 [main] INFO ebanking - Entered username
 2019-11-05 11:09:09,503 [main] INFO ebanking - Entered password
 2019-11-05 11:09:22,317 [main] INFO ebanking - Login test passed
+2019-11-05 14:15:07,619 [main] INFO ebanking - URL is opened
+2019-11-05 14:15:07,754 [main] INFO ebanking - Entered username
+2019-11-05 14:15:07,784 [main] INFO ebanking - Entered password
+2019-11-05 14:15:20,802 [main] INFO ebanking - Login test passed
