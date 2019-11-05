@@ -42,7 +42,7 @@ public class TC_AddCustomerTest_003 extends BaseClass {
 		} catch (Exception e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
-		}		
+		}
 		Thread.sleep(5000);
 		addcust.custaddress("INDIA");
 		addcust.custcity("AHE");
@@ -54,13 +54,10 @@ public class TC_AddCustomerTest_003 extends BaseClass {
 		String email = randomestring() + "@gmail.com";
 		addcust.custemailid(email);
 		addcust.custpassword("123456");
-		System.out.println(1);
+		Thread.sleep(4000);
 
 		addcust.custsubmit();
 
-		System.out.println(2);
-
-		System.out.println(3);
 		Thread.sleep(6000);
 
 		try {
@@ -87,7 +84,6 @@ public class TC_AddCustomerTest_003 extends BaseClass {
 			Assert.assertTrue(true);
 			logger.info("test case passed....");
 			captureScreen(driver, "addNewCustomer");
-
 
 		} else {
 			logger.info("test case failed....");
