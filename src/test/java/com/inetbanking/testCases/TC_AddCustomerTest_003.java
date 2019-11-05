@@ -1,5 +1,6 @@
 package com.inetbanking.testCases;
 
+import java.awt.AWTException;
 import java.io.IOException;
 
 import org.openqa.selenium.By;
@@ -33,7 +34,15 @@ public class TC_AddCustomerTest_003 extends BaseClass {
 		addcust.custName(randomestring());
 		addcust.custgender("male");
 		Thread.sleep(3000);
-		addcust.custdob("06", "12", "1989");
+		try {
+			addcust.custdob("10", "10", "1985");
+		} catch (AWTException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		} catch (Exception e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}		
 		Thread.sleep(5000);
 		addcust.custaddress("INDIA");
 		addcust.custcity("AHE");

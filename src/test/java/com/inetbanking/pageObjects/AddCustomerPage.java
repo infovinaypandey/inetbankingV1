@@ -1,5 +1,9 @@
 package com.inetbanking.pageObjects;
 
+import java.awt.AWTException;
+import java.awt.Robot;
+import java.awt.event.KeyEvent;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
@@ -16,6 +20,8 @@ public class AddCustomerPage {
 		PageFactory.initElements(rdriver, this);
 	}
 	
+	
+	
 	@FindBy(how = How.XPATH, using ="/html/body/div[3]/div/ul/li[2]/a")
 	@CacheLookup
 	WebElement lnkAddNewCustomer;
@@ -27,6 +33,7 @@ public class AddCustomerPage {
 	@FindBy(how = How.NAME, using = "rad1")
 	@CacheLookup
 	WebElement rdGender;
+
 
 	@CacheLookup
 	@FindBy(how = How.ID_OR_NAME, using = "dob")
@@ -82,10 +89,45 @@ public class AddCustomerPage {
 		rdGender.click();
 	}
 
-	public void custdob(String mm,String dd,String yy) {
+	public void custdob(String mm, String dd, String yy) throws AWTException, Exception {
+		Thread.sleep(2000);
+
 		txtdob.sendKeys(mm);
-		txtdob.sendKeys(dd);
-		txtdob.sendKeys(yy);
+		
+		Robot robot = new Robot();
+		
+		Thread.sleep(2000);
+		robot.keyPress(KeyEvent.VK_UP);
+		Thread.sleep(2000);
+		
+		robot.keyPress(KeyEvent.VK_UP);
+		Thread.sleep(2000);
+
+		robot.keyPress(KeyEvent.VK_TAB);
+		Thread.sleep(3000);
+
+		robot.keyPress(KeyEvent.VK_UP);
+		Thread.sleep(2000);
+
+		robot.keyPress(KeyEvent.VK_TAB);
+		Thread.sleep(2000);
+
+		robot.keyPress(KeyEvent.VK_DOWN);
+		
+		robot.keyPress(KeyEvent.VK_LEFT);
+		
+		robot.keyPress(KeyEvent.VK_LEFT);
+		
+		robot.keyPress(KeyEvent.VK_UP);
+
+
+
+
+
+
+		
+		//txtdob.sendKeys(mmddyyyy);
+
 		
 	}
 

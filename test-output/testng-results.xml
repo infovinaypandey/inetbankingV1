@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Failed suite [InetBankingV1]" duration-ms="29872" started-at="2019-11-05T08:44:53Z" finished-at="2019-11-05T08:45:22Z">
+  <suite name="InetBankingV1" duration-ms="74112" started-at="2019-11-05T11:29:22Z" finished-at="2019-11-05T11:30:36Z">
     <groups>
     </groups>
-    <test name="BankingApp Test(failed)" duration-ms="29872" started-at="2019-11-05T08:44:53Z" finished-at="2019-11-05T08:45:22Z">
-      <class name="com.inetbanking.testCases.TC_LoginTest_001">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_LoginTest_001@204f30ec]" name="setup" is-config="true" duration-ms="14340" started-at="2019-11-05T08:44:53Z" finished-at="2019-11-05T08:45:07Z">
+    <test name="BankingApp Test" duration-ms="74112" started-at="2019-11-05T11:29:22Z" finished-at="2019-11-05T11:30:36Z">
+      <class name="com.inetbanking.testCases.TC_AddCustomerTest_003">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_AddCustomerTest_003@754ba872]" name="setup" is-config="true" duration-ms="15619" started-at="2019-11-05T11:29:22Z" finished-at="2019-11-05T11:29:38Z">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.inetbanking.testCases.TC_LoginTest_001@204f30ec]" name="loginTest" duration-ms="13194" started-at="2019-11-05T08:45:07Z" finished-at="2019-11-05T08:45:20Z">
+        <test-method status="PASS" signature="addNewCustomer()[pri:0, instance:com.inetbanking.testCases.TC_AddCustomerTest_003@754ba872]" name="addNewCustomer" duration-ms="52302" started-at="2019-11-05T11:29:38Z" finished-at="2019-11-05T11:30:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.inetbanking.testCases.TC_LoginTest_001@204f30ec]" name="tearDown" is-config="true" duration-ms="2089" started-at="2019-11-05T08:45:20Z" finished-at="2019-11-05T08:45:22Z">
+        </test-method> <!-- addNewCustomer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.inetbanking.testCases.TC_AddCustomerTest_003@754ba872]" name="tearDown" is-config="true" duration-ms="5910" started-at="2019-11-05T11:30:30Z" finished-at="2019-11-05T11:30:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.inetbanking.testCases.TC_LoginTest_001 -->
-    </test> <!-- BankingApp Test(failed) -->
-  </suite> <!-- Failed suite [InetBankingV1] -->
+      </class> <!-- com.inetbanking.testCases.TC_AddCustomerTest_003 -->
+    </test> <!-- BankingApp Test -->
+  </suite> <!-- InetBankingV1 -->
 </testng-results>
