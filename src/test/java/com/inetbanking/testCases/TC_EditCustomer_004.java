@@ -22,7 +22,8 @@ public class TC_EditCustomer_004 extends BaseClass {
 		logger.info("Entered username");
 		lp.setPassword(password);
 		logger.info("Entered password");
-
+		
+		
 		lp.clickSubmit();
 
 		Thread.sleep(4000);
@@ -30,8 +31,7 @@ public class TC_EditCustomer_004 extends BaseClass {
 		EditCustomerPage ed = new EditCustomerPage(driver);
 		ed.clickEditCutomerFromMenu();
 		ed.enterCustomerID(customIdText);
-
-
+		Thread.sleep(4000);
 		ed.clickOnSubmit();
 
 	}
