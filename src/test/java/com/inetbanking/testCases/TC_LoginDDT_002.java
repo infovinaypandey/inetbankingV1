@@ -24,7 +24,6 @@ public class TC_LoginDDT_002 extends BaseClass {
 		Thread.sleep(3000);
 
 		if (isAlertPresent() == true) {
-			captureScreen(driver, " LoginDDT");
 			driver.switchTo().alert().accept();// close alert
 			driver.switchTo().defaultContent();
 			Assert.assertTrue(false);

@@ -13,7 +13,7 @@ public class TC_EditCustomer_004 extends BaseClass {
 		this.customIdText = customIdText;
 	}
 
-	@Test
+	@Test(testName = "Verify the added user")
 	public void editCustomer() throws Exception {
 
 		logger.info("URL is opened");

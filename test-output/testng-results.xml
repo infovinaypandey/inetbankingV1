@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="InetBankingV1" duration-ms="74112" started-at="2019-11-05T11:29:22Z" finished-at="2019-11-05T11:30:36Z">
+  <suite name="InetBankingV1" duration-ms="164394" started-at="2019-11-05T16:07:05Z" finished-at="2019-11-05T16:09:50Z">
     <groups>
     </groups>
-    <test name="BankingApp Test" duration-ms="74112" started-at="2019-11-05T11:29:22Z" finished-at="2019-11-05T11:30:36Z">
-      <class name="com.inetbanking.testCases.TC_AddCustomerTest_003">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_AddCustomerTest_003@754ba872]" name="setup" is-config="true" duration-ms="15619" started-at="2019-11-05T11:29:22Z" finished-at="2019-11-05T11:29:38Z">
+    <test name="BankingApp Test" duration-ms="164394" started-at="2019-11-05T16:07:05Z" finished-at="2019-11-05T16:09:50Z">
+      <class name="com.inetbanking.testCases.TC_EditCustomer_004">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_EditCustomer_004@4dfa3a9d]" name="setup" is-config="true" duration-ms="72642" started-at="2019-11-05T16:08:17Z" finished-at="2019-11-05T16:09:30Z">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,32 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="addNewCustomer()[pri:0, instance:com.inetbanking.testCases.TC_AddCustomerTest_003@754ba872]" name="addNewCustomer" duration-ms="52302" started-at="2019-11-05T11:29:38Z" finished-at="2019-11-05T11:30:30Z">
+        <test-method status="PASS" signature="editCustomer()[pri:0, instance:com.inetbanking.testCases.TC_EditCustomer_004@4dfa3a9d]" name="editCustomer" duration-ms="19638" started-at="2019-11-05T16:09:30Z" finished-at="2019-11-05T16:09:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editCustomer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.inetbanking.testCases.TC_EditCustomer_004@4dfa3a9d]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-11-05T16:09:50Z" finished-at="2019-11-05T16:09:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.inetbanking.testCases.TC_EditCustomer_004 -->
+      <class name="com.inetbanking.testCases.TC_AddCustomerTest_003">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_AddCustomerTest_003@146ba0ac]" name="setup" is-config="true" duration-ms="16494" started-at="2019-11-05T16:07:06Z" finished-at="2019-11-05T16:07:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addNewCustomer()[pri:0, instance:com.inetbanking.testCases.TC_AddCustomerTest_003@146ba0ac]" name="addNewCustomer" duration-ms="55378" started-at="2019-11-05T16:07:22Z" finished-at="2019-11-05T16:08:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewCustomer -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.inetbanking.testCases.TC_AddCustomerTest_003@754ba872]" name="tearDown" is-config="true" duration-ms="5910" started-at="2019-11-05T11:30:30Z" finished-at="2019-11-05T11:30:36Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.inetbanking.testCases.TC_AddCustomerTest_003@146ba0ac]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-11-05T16:08:17Z" finished-at="2019-11-05T16:08:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

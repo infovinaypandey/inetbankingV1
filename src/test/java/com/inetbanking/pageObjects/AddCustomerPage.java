@@ -70,9 +70,10 @@ public class AddCustomerPage {
 	@CacheLookup
 	@FindBy(how = How.NAME, using = "sub")
 	WebElement btnSubmit;
-	
-	@CacheLookup
-	@FindBy(css = " #customer > tbody > tr:nth-child(4) > td:nth-child(2)")
+	//#customer > tbody:nth-child(1) > tr:nth-child(4) > td:nth-child(2)
+	//#customer > tbody > tr:nth-child(4) > td:nth-child(2)
+	@CacheLookup 
+	@FindBy(css = "#customer > tbody > tr:nth-child(4) > td:nth-child(2)")
 	WebElement acountIDLoctor;
 	
 	public void clickAddNewCustomer() {

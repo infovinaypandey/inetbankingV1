@@ -15,7 +15,7 @@ import com.inetbanking.pageObjects.LoginPage;
 
 public class TC_AddCustomerTest_003 extends BaseClass {
 
-	@Test
+	@Test(testName = "Verify the URl")
 	public void addNewCustomer() throws InterruptedException, IOException {
 		LoginPage lp = new LoginPage(driver);
 		lp.setUserName(username);
