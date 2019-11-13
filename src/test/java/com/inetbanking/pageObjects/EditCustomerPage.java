@@ -22,7 +22,7 @@ public class EditCustomerPage {
 	
 	@FindBy(name = "cusid")
 	WebElement clickOnCutomerTextFiled;
-	
+
 	@FindBy(name = "AccSubmit")
 	WebElement clickSubmit;
 	
@@ -37,6 +37,7 @@ public class EditCustomerPage {
 	
 	public void clickOnSubmit() {
 		clickSubmit.click();
+		
 	}
 
 
