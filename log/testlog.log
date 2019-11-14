@@ -808,3 +808,19 @@
 2019-11-05 21:39:30,578 - ebanking -INFO - URL is opened
 2019-11-05 21:39:30,668 - ebanking -INFO - Entered username
 2019-11-05 21:39:30,753 - ebanking -INFO - Entered password
+2019-11-14 12:02:17,818 - ebanking -INFO - User name is provided
+2019-11-14 12:02:17,850 - ebanking -INFO - Passsword is provided
+2019-11-14 12:02:33,446 - ebanking -INFO - providing customer details....
+2019-11-14 12:03:12,872 - ebanking -INFO - validation started....
+2019-11-14 12:03:12,885 - ebanking -INFO - test case passed....
+2019-11-14 12:03:56,509 - ebanking -INFO - URL is opened
+2019-11-14 12:03:56,569 - ebanking -INFO - Entered username
+2019-11-14 12:03:56,602 - ebanking -INFO - Entered password
+2019-11-14 12:09:23,972 - ebanking -INFO - User name is provided
+2019-11-14 12:09:24,008 - ebanking -INFO - Passsword is provided
+2019-11-14 12:09:39,572 - ebanking -INFO - providing customer details....
+2019-11-14 12:10:20,659 - ebanking -INFO - validation started....
+2019-11-14 12:10:20,674 - ebanking -INFO - test case passed....
+2019-11-14 12:10:33,608 - ebanking -INFO - URL is opened
+2019-11-14 12:10:33,673 - ebanking -INFO - Entered username
+2019-11-14 12:10:33,713 - ebanking -INFO - Entered password

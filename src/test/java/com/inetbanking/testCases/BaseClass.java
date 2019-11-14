@@ -55,12 +55,13 @@ public class BaseClass {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 		driver.get(baseURL);
+	    driver.manage().deleteAllCookies();
 	}
 	
 	@AfterClass
 	public void tearDown()
 	{
-		//driver.quit();
+		driver.quit();
 	}
 	
 	public void captureScreen(WebDriver driver, String tname) throws IOException {

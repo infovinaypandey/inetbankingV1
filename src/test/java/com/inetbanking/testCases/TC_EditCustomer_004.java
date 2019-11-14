@@ -30,6 +30,7 @@ public class TC_EditCustomer_004 extends BaseClass {
 
 		EditCustomerPage ed = new EditCustomerPage(driver);
 		ed.clickEditCutomerFromMenu();
+		Thread.sleep(4000);
 		ed.enterCustomerID(customIdText);
 		Thread.sleep(4000);
 		ed.clickOnSubmit();

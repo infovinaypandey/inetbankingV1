@@ -74,6 +74,7 @@ public class AddCustomerPage {
 	//#customer > tbody > tr:nth-child(4) > td:nth-child(2)
 	@CacheLookup 
 	@FindBy(css = "#customer > tbody > tr:nth-child(4) > td:nth-child(2)")
+	
 	WebElement acountIDLoctor;
 	
 	public void clickAddNewCustomer() {
